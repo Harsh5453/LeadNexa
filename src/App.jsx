@@ -1,0 +1,2 @@
+import {useState} from 'react';import {MotionConfig} from 'framer-motion';import Navbar from './components/Navbar.jsx';import Footer from './components/Footer.jsx';import ContactModal from './components/ContactModal.jsx';import Home from './pages/Home.jsx';
+export default function App(){const[b,setB]=useState(false);return <MotionConfig reducedMotion="user"><Navbar onBook={()=>setB(true)}/><Home onBook={()=>setB(true)}/><Footer/><ContactModal open={b} onClose={()=>setB(false)}/></MotionConfig>}

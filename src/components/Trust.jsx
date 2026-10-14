@@ -1,0 +1,2 @@
+export default function Trust(){return <section aria-label="Who it's for" className="px-5 py-14 text-center border-y border-white/5"><p className="text-[11px] tracking-[.3em] text-white/40">BUILT FOR BUSINESSES WHERE EVERY ENQUIRY MATTERS</p>
+<ul className="mt-5 flex flex-wrap justify-center gap-x-8 gap-y-2 text-sm text-white/60">{['AC & HVAC','Plumbing','Electrical','Cleaning','Appliance Repair','Home Services'].map(t=><li key={t}>{t}</li>)}</ul></section>}

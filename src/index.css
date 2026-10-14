@@ -1,0 +1,10 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{background:#050505;color:#f4f5f6;font-family:Inter,Geist,ui-sans-serif,system-ui,sans-serif;overflow-x:hidden;max-width:100%;-webkit-font-smoothing:antialiased}
+:focus-visible{outline:2px solid #38bdf8;outline-offset:2px}
+.grid-bg{background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:56px 56px;mask-image:radial-gradient(ellipse at top,#000 20%,transparent 70%)}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+input:focus,textarea:focus{box-shadow:0 0 0 3px rgba(56,189,248,.15)}
+button,a{transition:transform .2s,background-color .2s,color .2s,border-color .2s}
+button:active{transform:scale(.97)}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
